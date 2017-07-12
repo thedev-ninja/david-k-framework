@@ -1,15 +1,15 @@
 <?php 
-// if (isset($_POST['projectUriPath'])) {
-// 	$projectUriPath = $_POST['projectUriPath'];
-// }else{
-// 	$projectUriPath = PROJECT_URIPATH;
-// }
+if (isset($_POST['projectUriPath'])) {
+	$projectUriPath = $_POST['projectUriPath'];
+}else{
+	$projectUriPath = PROJECT_URIPATH;
+}
 ?>
-<!-- <script type="text/javascript">
+<script type="text/javascript">
 	$(document).ready( function () {
 		var projectUriPath = '<?php echo $projectUriPath ?>';
         $('#example').DataTable( {
-            "ajax": projectUriPath+"/flatfiledata/?data=company&ext=txt&format=json&headers=true",
+            "ajax": projectUriPath+"/api/listings/companies/",
             "columns": [
 	            { "data": "id", "visible": false },
 	            { "data": "name" },
@@ -23,4 +23,4 @@
         } );
         $('#example').fadeIn();
 	} );
-</script> -->
+</script>

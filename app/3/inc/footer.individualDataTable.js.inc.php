@@ -1,4 +1,5 @@
-<?php if (isset($_POST['projectUriPath'])) {
+<?php 
+if (isset($_POST['projectUriPath'])) {
 	$projectUriPath = $_POST['projectUriPath'];
 }else{
 	$projectUriPath = PROJECT_URIPATH;
@@ -21,6 +22,5 @@
             "dom": '<"top"i>rt<"bottom"flp><"clear">'
         } );
         $('#example').fadeIn();
-        console.log(data);
 	} );
 </script>

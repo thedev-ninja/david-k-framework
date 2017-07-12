@@ -95,8 +95,8 @@ class ApiController{
 
     public function afterHook(){
         // some logic here
-        echo 'afterHook';
-        $dispatcher = new Dispatcher;
+        // echo 'afterHook';
+        // $dispatcher = new Dispatcher;
         // require "verbose.php";
         // var_dump($_GET);
     }
@@ -130,7 +130,7 @@ class ApiController{
         $_POST['projectUriPath'] = PROJECT_URIPATH;
         $_GET['data'] = 'company';
         $_GET['ext'] = 'txt';
-        $_GET['format'] = 'RAW';
+        $_GET['format'] = 'JSON';
         $_GET['headers'] = 'TRUE';
             require 'flatfiledata/returnFlatFileData.php';
     }
