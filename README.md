@@ -1,2 +1,0 @@
-# david-k-framework
-test
