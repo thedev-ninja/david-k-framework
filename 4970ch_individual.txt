@@ -1,0 +1,57 @@
+id|fname|lname|desc|parentid|floor|suite|phone
+39|Yolanda C.|Aquino|CPA|29|4|411|
+4|Sarah J.|Banola||12|17|1700|
+5|Garth|Black||12|17|1700|
+6|David I.|Blumenfeld||12|17|1700|
+2|Julie|Bowyer||1|6|650|
+1|Drew|Bradley||1|6|650|
+7|Priya|Brandes||12|17|1700|
+8|Peter C.|Califano||12|17|1700|
+52|Michael|Cashion|Senior Real Estate Manager|40|4|430|
+9|Keith M.|Castro||12|17|1700|
+10|Jamie|Chou||12|17|1700|
+40|Jacob|Chung|CPA|29|4|411|
+11|Richard J.|Collier||12|17|1700|
+41|Reagan|Cua||29|4|411|
+50|Charles|Davis||37|4|440|
+33|Deborah|Davy||20|3|350|
+12|Andrew I.|Dilworth||12|17|1700|
+13|John R.|Epperson||12|17|1700|
+14|Alan C.|Freeland||12|17|1700|
+58|Brian H|Getz||34|4|450|
+47|Sophia|Han||37|4|440|
+16|Walter W.|Hansell||12|17|1700|
+53|Danny|Ho|Real Estate Services Administrator|40|4|430|
+43|Jonathan R.|Howden||32|4|450|
+45|Sajjad|Jaffer||37|4|440|
+56|Shaun|Jinkerson|Chief Engineer|51|4|430|
+34|Monica|Kim||20|3|350|
+46|Joanna|Li||37|4|440|
+3|Annie Y.|Liu|CPA|2|4|411|
+49|Andrew|Ma||37|4|440|
+37|Robert K.|Mah|CPA|29|4|411|
+38|Brian R.|Mah|CPA|29|4|411|
+17|Scott M.|McLeod||12|17|1700|
+35|Judi|McManigal||20|3|350|
+18|Christopher J.|Mead||12|17|1700|
+19|Peter L.|Muhs||12|17|1700|
+20|Harrison T.|Nam||12|17|1700|
+36|Julia|Nikolaev||20|3|350|
+21|William H.G.|Norman||12|17|1700|
+44|Ian|Picache||37|4|440|
+57|Donny|Ramirez|Engineer|51|||
+22|Patrick M.|Rosvall||12|17|1700|
+23|Jill B.|Rowe||12|17|1700|
+55|Joseph L.|Schatz||50|4|490|
+24|Mark P.|Schreiber||12|17|1700|
+42|Douglas R.|Schwartz||32|4|450|
+25|Edward L.|Seidel||12|17|1700|
+32|Minal|Shah||20|3|350|
+26|Beau|Simon||12|17|1700|
+27|Jed|Solomon||12|17|1700|
+28|Ann L.|Ten Eyck||12|17|1700|
+29|Mark L.|Tuft||12|17|1700|
+30|Kate|Wheble||12|17|1700|
+31|Jeffrey P.|Woo||12|17|1700|
+51|Eugene|Yano|CPA|39|4|411|
+48|Chunyi|Zhao||37|4|440|

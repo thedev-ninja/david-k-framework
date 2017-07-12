@@ -1,0 +1,24 @@
+.gm-rev
+{
+    display:none;
+}
+.gm-website
+{
+    display:none;
+}
+.gm-wsv
+{
+    display:none;
+}
+.view-link{
+  display: none;
+}
+div.gmnoprint.gm-style-mtc{
+  display: none;
+}
+.gm-style-cc{
+  display: none;
+}
+.gm-style > div:nth-child(2){
+  display:none;
+}

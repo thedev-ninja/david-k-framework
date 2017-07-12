@@ -1,0 +1,23 @@
+/* This is a custom css file */
+.nested-label{
+	margin: .5em .5em;
+}
+body{
+	background-color: #001d33;
+}
+.row{
+	background-color:#eee;
+}
+.nav-left{
+	/*border:solid #001d33 3px;*/
+	background-color: #E79D0D;
+	font-size:1.25em;
+}
+a{
+	color:#001D33;
+	/*font-weight: bold;*/
+}
+a:hover{
+	color:#fff;
+	/*text-decoration: underline;	*/
+}

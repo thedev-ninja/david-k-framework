@@ -1,0 +1,181 @@
+@charset "utf-8";
+*,*:before,*:after{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+html {
+	background-color: #000;
+	color: #fff;
+	/*overflow: hidden;*/
+}
+/* body / container settings */
+body{
+	width: 1920px;
+	height: 1080px;
+	margin:0 auto;
+	background-color: cornflowerblue;
+	color: inherit;
+}
+body>.container-fluid{
+	color:#fff;
+	font-family: 'Trajan Pro', 'Myriad Pro', Helvetica, sans-serif;
+	max-width: 1920px;
+	height: 1080px;
+	background-color: #333;
+}
+/* no padding within columns as defined by parent*/
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+/* define layering 
+-------------------------------------------------- */
+.layer{
+	position: absolute;
+	width: 100%;
+}
+.layer:nth-child(1){
+	z-index: 1;
+}
+.layer:nth-child(2){
+	z-index: 2;
+}
+.layer:nth-child(3){
+	z-index: 3;
+}
+
+/* align row to bottom of parent column
+-------------------------------------------------- */
+.bottom-row {
+    position: absolute;
+    bottom: 0;
+    margin-right: 0;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* define row/column positioning and dimensions 
+-------------------------------------------------- */
+div.row #front-slideshow{
+  height: 1000px;
+  float: left;
+  width: inherit;
+}
+div.row #infoblock{
+  height: 1000px;
+  text-align: center;
+  display: block;
+}
+div.row #infoblock>div{
+	height: 40%;
+}
+div.row #infoblock>div:first-child{
+	height: 20%;
+}
+#listdata{
+	height: 900px;
+	float: left;
+	width: 100%;
+	/*text-align: right;*/
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.data-nav{
+	float: left;
+	height: 100px;
+	width: 100%;
+}
+#announcements{
+	height:250px;
+}
+/* set height on data layer*/
+.data-layer{
+	height: 1000px;
+}
+
+/* These should be more specific */
+.data-layer .row-eq-height{
+	height: 1000px;
+}
+.data-layer .left-col{
+	height: 200px;
+}
+.primary-row{
+	height: 1000px;
+}
+
+.headlines{
+	float: left;
+	height: 80px;
+}
+/* Navigation styling 
+-------------------------------------------------- */
+.full-width-button{
+	display: block;
+	text-align: center;
+}
+.main-nav li{
+	display: block;
+}
+.main-nav li.button{
+    position: relative;
+    display: block;
+    height: 25%;
+    margin:0rem 0;	
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(0, 60, 105);
+	background-image: -moz-linear-gradient( 90deg, rgb(0,152,219) 0%, rgb(0,152,219) 31%, rgb(0,152,219) 67%, rgb(0,152,219) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,152,219) 0%, rgb(0,152,219) 31%, rgb(0,152,219) 67%, rgb(0,152,219) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,152,219) 0%, rgb(0,152,219) 31%, rgb(0,152,219) 67%, rgb(0,152,219) 100%);
+    font-family: inherit;
+    /*outline: 0 !important;*/
+    /*border-radius: 6px;*/
+    /*padding: 4.7rem 0.8rem !important;*/
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.main-nav li.button a{
+	display: block;
+	color: #fff;
+	font-size: 3.4em;
+    line-height: 100px;
+}
+/* #listdata and child table styling 
+-------------------------------------------------- */
+#listdata table tbody tr td{
+	/*width:33%;*/
+	vertical-align: middle;
+	text-align: left;
+	color:black;
+}
+#listdata #example{
+	height: 650px;
+	overflow-y: hidden;
+	display: none;
+}
+#example{
+	color:white;
+}
+#example_wrapper{
+	float: left;
+	color: white;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#example_wrapper label{
+	color: inherit;
+}
+#example_wrapper .dataTables_info{
+	color:inherit;
+}
+#example_wrapper .dataTables_length{
+	color:inherit;
+}
+#example_wrapper .dataTables_filter{
+	color:inherit;
+}
