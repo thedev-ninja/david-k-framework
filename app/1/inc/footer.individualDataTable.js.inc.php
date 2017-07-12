@@ -21,6 +21,5 @@
             "dom": '<"top"i>rt<"bottom"flp><"clear">'
         } );
         $('#example').fadeIn();
-        console.log(data);
 	} );
 </script>
