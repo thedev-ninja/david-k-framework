@@ -110,7 +110,7 @@
 		// 					</tbody>
 		// 				</table>';
 		// $content .= $outputTableHTML;
-		$content .= file_get_contents('http://localhost/david/api/listings/individuals/');
+		// $content .= file_get_contents('http://localhost/david/api/listings/individuals/');
 /*
 	
 	INSERT INCLUDES/SCRIPTS/OTHER DEPENDENCIES INTO THE TEMPLATE FILES, MODIFY THE TEMPLATE FILES AS NEEDED FOR ADDITIONAL CUSTOMIZATION

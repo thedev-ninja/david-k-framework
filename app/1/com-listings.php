@@ -110,7 +110,7 @@
 		// 					</tbody>
 		// 				</table>';
 		// $content .= $outputTableHTML;
-		$content .= file_get_contents('http://localhost/david/api/listings/companies/');
+		// $content .= file_get_contents('http://localhost/david/api/listings/companies/');
 /*
 /*
 	
